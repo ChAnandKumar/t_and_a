@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.show_profile.ShowProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/profile_imge"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/SideHeadingTextViewStyle"
+                    android:text="@string/employee_id"
+                    android:layout_weight="1"/>
+                <TextView
+                    style="@style/MainContentTextViewStyle"
+                    android:id="@+id/employee_id_textView"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/SideHeadingTextViewStyle"
+                    android:text="@string/name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    style="@style/MainContentTextViewStyle"
+                    android:id="@+id/name_textView"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/SideHeadingTextViewStyle"
+                    android:text="@string/designation"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    style="@style/MainContentTextViewStyle"
+                    android:id="@+id/designation_textView"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/SideHeadingTextViewStyle"
+                    android:text="@string/department"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    style="@style/MainContentTextViewStyle"
+                    android:id="@+id/department_textView"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                style="@style/SideHeadingTextViewStyle"
+                android:text="@string/work_location"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    style="@style/MainContentTextViewStyle"
+                    android:id="@+id/work_location_textView"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ashButtonUnClicked"/>
+
+
+
+
+</LinearLayout>

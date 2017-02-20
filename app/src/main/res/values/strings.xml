@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">T &amp; A</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="changeEmployee">Change Employee</string>
+    <string name="forgotPin">Forgot Pin</string>
+    <string name="tataMortors">\t TATA MOTORS</string>
+
+    <string name="slidetounlock_label">slide to unlock</string>
+    <string name="slidetounlock_label_default">slide to unlock</string>
+    <string name="name">Name</string>
+    <string name="designation">Designation</string>
+    <string name="department">Department</string>
+    <string name="work_location">Work Location</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="profile">Profile</string>
+    <string name="report">Report</string>
+    <string name="logout">Logout</string>
+    <string name="inventory_tracking_system">Inventory Tracking System</string>
+    <string name="time_attendance_t_a"><![CDATA[Time & Attendance (T&A)]]></string>
+</resources>

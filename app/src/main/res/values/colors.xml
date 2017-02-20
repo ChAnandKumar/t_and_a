@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1072ba</color>
+    <color name="colorPrimaryDark">#0c66a7</color>
+    <color name="colorAccent">#1a80cc</color>
+
+    <color name="backgroundColor">#fff9e9</color>
+
+    <color name="redButtonUnClicked">#820602</color>
+    <color name="redButtonClicked">#4c0502</color>
+
+    <color name="ashButtonUnClicked">#898989</color>
+    <color name="ashButtonClicked">#626262</color>
+
+    <color name="bg">#d8dde0</color>
+    <color name="white">#ffffff</color>
+    <color name="lightRed">#ff9977</color>
+    <color name="green">#078b15</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+</resources>

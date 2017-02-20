@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<declare-styleable name="SlideToUnlockView">
+        <attr name="text" format="string"/>
+        <attr name="thumb" format="integer"/>
+         <attr name="trackSlide" format="integer"/>
+    </declare-styleable>-->
+
+    <declare-styleable name="SlideToUnlock">
+        <attr name="sliderColor" format="color"/>
+        <attr name="cancelOnYExit" format="boolean"/>
+        <attr name="slideToUnlockText" format="string"/>
+        <attr name="slideToUnlockTextColor" format="color"/>
+        <attr name="slideToUnlockBackgroundColor" format="color"/>
+        <attr name="cornerRadiusX" format="dimension"/>
+        <attr name="cornerRadiusY" format="dimension"/>
+    </declare-styleable>
+</resources>
